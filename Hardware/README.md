@@ -1,16 +1,17 @@
-# What Are these Files?
+SparkFun <PRODUCT NAME> Design Files
+=====================================
 
-The .sch and .brd files hare are Eagle CAD schematic and PCB design files.
+The .sch and .brd files hare are Eagle CAD schematic and PCB design files from SparkFun Electronics.
+A freeware version of Eagle can be found [here](http://www.cadsoftusa.com/download-eagle/freeware/). 
 
-These files were created with Eagle 6.2.0, you'll need Eagle 6.0 or later to open them up. There is a free, lite, version of Eagle available from [cadsoftusa.com](cadsoftusa.com).
 
-The .STL file is a 3-D model 
-# Board Features
+License
+---------
+This product is open source! 
+The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
-# License
+Please use, reuse, and modify these files as you see fit. Please maintain attribution to SparkFun Electronics and release anything derivative under the same license.
 
-This product is open source! These Eagle files are released under the Creative Commons Share-Alike Attribution license ([CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/us/)).
-
-Please use, reuse, and modify these files as you see fit. Please maintain attribution and release anything derivative under the same license.
+Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.

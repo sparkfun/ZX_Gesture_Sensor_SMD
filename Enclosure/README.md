@@ -1,2 +1,7 @@
-Original file found here: http://www.thingiverse.com/thing:13931
-Created by RyGuy. 
+Enclosure directory.
+====================
+
+ 
+For any 3D files/models of enclosures that are included with products. 
+For example, the casing for the MicroView.  
+

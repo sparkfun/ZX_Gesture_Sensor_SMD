@@ -1,10 +1,14 @@
+SparkFun License Information
+=============================
 
-License Information
--------------------
+This product is open source! 
+The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+The code is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
+Please use, reuse, and modify these files as you see fit. Please maintain attribution to SparkFun Electronics and release anything derivative under the same license.
 
-The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/). 
 
-All other code is open source so please feel free to do anything you want with it; you buy me a beer if you use this and we meet someday ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
+Distributed as-is; no warranty is given.
 
-->Additional Licenses and attributions to original authors as needed.<-
+- Your friends at SparkFun.
 
+_Any collaboration credit should appear here._
