@@ -27,4 +27,5 @@ _Any collaboration credit should appear here._
 BUILD INSTRUCTIONS: 
 
 $git subtree add -P<DIRECTORY NAME> --squash <git repo URL> <branch name>
+
 $git subtree pull -P<DIRECTORY NAME> --squash <git repo URL> <branch name>
