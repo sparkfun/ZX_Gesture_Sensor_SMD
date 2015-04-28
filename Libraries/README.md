@@ -24,8 +24,8 @@ _Any collaboration credit should appear here._
 
 
 
-BUILD INSTRUCTIONS: 
+Update Library Instructions:
+----------------------------
+To get the most up-to-date version of the library, you must run the following git subtree commands. 
 
-$git subtree add -P <DIRECTORY NAME> --squash <git repo URL> <ref>
-
-$git subtree pull -P <DIRECTORY NAME> --squash <git repo URL> <ref>
+$git subtree pull -P Libraries/<COMPILER NAME> --squash <product library repo URL> master
