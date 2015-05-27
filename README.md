@@ -10,6 +10,7 @@ SparkFun <PRODUCT NAME>
 Repository Contents
 -------------------
 
+* **/Documentation** - Data sheets, additional product information
 * **/Enclosure** - Enclosure files 
 * **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
