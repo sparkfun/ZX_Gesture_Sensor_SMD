@@ -25291,8 +25291,6 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <text x="50.8" y="152.4" size="1.778" layer="97" align="center-right">CL</text>
 <text x="50.8" y="149.86" size="1.778" layer="97" align="center-right">DR</text>
 <text x="7.62" y="149.86" size="1.778" layer="97" align="center-right">NC</text>
-<text x="59.69" y="104.902" size="1.778" layer="97">DNP</text>
-<text x="125.73" y="104.902" size="1.778" layer="97">DNP</text>
 <text x="7.62" y="177.8" size="1.778" layer="97">NOTE: VCC must be 3.3V - 5V</text>
 <text x="172.212" y="11.684" size="1.778" layer="94" font="vector">Shawn Hymel </text>
 <text x="177.8" y="7.62" size="1.778" layer="94">Mary West </text>
@@ -25439,7 +25437,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </instance>
 <instance part="R14" gate="G$1" x="73.66" y="119.38" rot="R90"/>
 <instance part="FID4" gate="G$1" x="236.22" y="33.02"/>
-<instance part="R13" gate="G$1" x="7.62" y="121.92" rot="R90"/>
+<instance part="R13" gate="G$1" x="7.62" y="119.38" rot="R90"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
 <instance part="LOGO2" gate="G$1" x="134.62" y="2.54"/>
@@ -25847,8 +25845,8 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="127" x2="10.16" y2="127" width="0.1524" layer="91"/>
-<label x="10.16" y="127" size="1.27" layer="95" xref="yes"/>
+<wire x1="7.62" y1="124.46" x2="7.62" y2="127" width="0.1524" layer="91"/>
+<label x="7.62" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -25973,7 +25971,6 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="116.84" x2="7.62" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="G1"/>
 <wire x1="7.62" y1="114.3" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
 </segment>
