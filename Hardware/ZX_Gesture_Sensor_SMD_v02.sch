@@ -25182,7 +25182,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="U4" library="SparkFun-DiscreteSemi" deviceset="DMC2700UDM" device=""/>
 <part name="U6" library="SparkFun-Sensors" deviceset="TSOP57238TT1" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK" value="Note: use 1x3 male headers (CONN-009692)"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
