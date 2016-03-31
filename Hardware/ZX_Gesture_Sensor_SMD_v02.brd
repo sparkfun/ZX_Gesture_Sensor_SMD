@@ -4864,10 +4864,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.5425" y1="7.62" x2="23.241" y2="6.9215" width="0.2032" layer="16"/>
 <wire x1="23.241" y1="6.9215" x2="23.241" y2="6.7065" width="0.2032" layer="16"/>
 <wire x1="23.241" y1="6.7065" x2="24.13" y2="5.8175" width="0.2032" layer="16"/>
-<wire x1="29.3425" y1="6.0325" x2="29.3425" y2="5.265" width="0.2032" layer="16"/>
-<wire x1="29.3425" y1="5.265" x2="29.5275" y2="5.08" width="0.2032" layer="16"/>
-<wire x1="29.5275" y1="5.08" x2="30.5825" y2="5.08" width="0.2032" layer="16"/>
-<wire x1="30.5825" y1="5.08" x2="30.7975" y2="4.865" width="0.2032" layer="16"/>
 <wire x1="27.305" y1="15.5575" x2="27.305" y2="12.3825" width="0.2032" layer="1"/>
 <wire x1="26.9875" y1="15.875" x2="27.305" y2="15.5575" width="0.2032" layer="1"/>
 <wire x1="26.67" y1="15.5575" x2="26.9875" y2="15.875" width="0.2032" layer="16"/>
@@ -4886,11 +4882,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="26.035" y1="1.27" x2="26.035" y2="5.3975" width="0.2032" layer="1"/>
 <wire x1="24.13" y1="5.715" x2="24.13" y2="5.8175" width="0.2032" layer="16"/>
 <via x="25.7175" y="5.715" extent="1-16" drill="0.381"/>
-<wire x1="29.21" y1="5.08" x2="29.21" y2="5.3975" width="0.2032" layer="16"/>
-<wire x1="29.5275" y1="5.08" x2="29.21" y2="5.08" width="0.2032" layer="16"/>
-<wire x1="30.7975" y1="4.7625" x2="32.0675" y2="4.7625" width="0.2032" layer="16"/>
 <wire x1="30.7975" y1="4.7625" x2="30.7975" y2="4.865" width="0.2032" layer="16"/>
-<wire x1="32.0675" y1="5.08" x2="32.0675" y2="4.7625" width="0.2032" layer="16"/>
 <wire x1="32.385" y1="5.3975" x2="32.0675" y2="5.08" width="0.2032" layer="1"/>
 <wire x1="32.385" y1="9.8425" x2="32.385" y2="5.3975" width="0.2032" layer="1"/>
 <wire x1="32.0675" y1="10.16" x2="32.385" y2="9.8425" width="0.2032" layer="1"/>
@@ -4909,6 +4901,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="50.165" y1="11.049" x2="50.165" y2="10.6925" width="0.2032" layer="16"/>
 <wire x1="50.165" y1="10.6925" x2="50.4825" y2="10.375" width="0.2032" layer="16"/>
 <wire x1="50.1015" y1="11.1125" x2="50.165" y2="11.049" width="0.2032" layer="16"/>
+<wire x1="29.3425" y1="6.0325" x2="29.3425" y2="5.0745" width="0.2032" layer="16"/>
+<wire x1="29.3425" y1="5.0745" x2="29.718" y2="4.699" width="0.2032" layer="16"/>
+<wire x1="29.718" y1="4.699" x2="30.6315" y2="4.699" width="0.2032" layer="16"/>
+<wire x1="30.6315" y1="4.699" x2="30.7975" y2="4.865" width="0.2032" layer="16"/>
+<wire x1="30.7975" y1="4.7625" x2="31.75" y2="4.7625" width="0.2032" layer="16"/>
+<wire x1="31.75" y1="4.7625" x2="32.0675" y2="5.08" width="0.2032" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="JP1" pad="6"/>
