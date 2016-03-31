@@ -25180,11 +25180,9 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW"/>
 <part name="U3" library="SparkFun-DiscreteSemi" deviceset="DMC2700UDM" device=""/>
 <part name="U4" library="SparkFun-DiscreteSemi" deviceset="DMC2700UDM" device=""/>
-<part name="U6" library="SparkFun-Sensors" deviceset="TSOP57238TT1" device="">
-<attribute name="PLACE" value="DNP"/>
-</part>
+<part name="U6" library="SparkFun-Sensors" deviceset="TSOP57238TT1" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK" value="Note: use 1x3 male headers (CONN-009692)"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -25316,10 +25314,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </instance>
 <instance part="U3" gate="G$1" x="22.86" y="111.76"/>
 <instance part="U4" gate="G$1" x="88.9" y="111.76"/>
-<instance part="U6" gate="G$1" x="198.12" y="63.5" smashed="yes">
-<attribute name="NAME" x="187.96" y="69.342" size="1.778" layer="95"/>
-<attribute name="VALUE" x="187.706" y="56.388" size="1.778" layer="96"/>
-</instance>
+<instance part="U6" gate="G$1" x="198.12" y="63.5"/>
 <instance part="JP1" gate="G$1" x="12.7" y="154.94" smashed="yes">
 <attribute name="VALUE" x="7.62" y="144.78" size="1.778" layer="96"/>
 <attribute name="NAME" x="7.62" y="165.862" size="1.778" layer="95"/>
