@@ -25248,8 +25248,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="TP5" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="U$6" library="SparkFun-Aesthetics" deviceset="GESTURESENSE_LOGOS" device="TEXT"/>
-<part name="D3" library="SparkFun-LED" deviceset="SFH4641" device="SHORT2"/>
-<part name="D4" library="SparkFun-LED" deviceset="SFH4641" device="SHORT2"/>
+<part name="D1" library="SparkFun-LED" deviceset="SFH4641" device="SHORT2"/>
+<part name="D2" library="SparkFun-LED" deviceset="SFH4641" device="SHORT2"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
 <part name="FID4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
@@ -25429,13 +25429,13 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <attribute name="NAME" x="109.22" y="160.02" size="1.778" layer="95" rot="MR0" align="center-left"/>
 </instance>
 <instance part="U$6" gate="G$1" x="111.76" y="2.54"/>
-<instance part="D3" gate="G$1" x="48.26" y="104.14" smashed="yes">
+<instance part="D1" gate="G$1" x="48.26" y="104.14" smashed="yes">
 <attribute name="NAME" x="49.53" y="107.188" size="1.778" layer="95"/>
 <attribute name="VALUE" x="49.276" y="98.806" size="1.778" layer="96"/>
 </instance>
-<instance part="D4" gate="G$1" x="114.3" y="106.68" smashed="yes">
-<attribute name="NAME" x="115.57" y="109.728" size="1.778" layer="95"/>
-<attribute name="VALUE" x="115.316" y="101.346" size="1.778" layer="96"/>
+<instance part="D2" gate="G$1" x="114.3" y="104.14" smashed="yes">
+<attribute name="NAME" x="115.57" y="107.188" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.316" y="98.806" size="1.778" layer="96"/>
 </instance>
 <instance part="R14" gate="G$1" x="73.66" y="119.38" rot="R90"/>
 <instance part="FID4" gate="G$1" x="236.22" y="33.02"/>
@@ -25777,7 +25777,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="78.74" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
 <junction x="48.26" y="78.74"/>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="99.06" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -25787,8 +25787,8 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 <junction x="114.3" y="78.74"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="114.3" y1="101.6" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="114.3" y1="99.06" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -25861,7 +25861,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="45.72" y1="109.22" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="109.22" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -25888,7 +25888,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="124.46" x2="73.66" y2="127" width="0.2032" layer="91"/>
+<wire x1="73.66" y1="124.46" x2="73.66" y2="127" width="0.1524" layer="91"/>
 <label x="73.66" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -25911,13 +25911,6 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <pinref part="U4" gate="G$1" pin="D2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="111.76" y1="109.22" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RECEIVER" class="0">
@@ -25974,7 +25967,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="U4" gate="G$1" pin="G1"/>
-<wire x1="73.66" y1="114.3" x2="78.74" y2="114.3" width="0.2032" layer="91"/>
+<wire x1="73.66" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -25983,6 +25976,14 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <wire x1="7.62" y1="116.84" x2="7.62" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="G1"/>
 <wire x1="7.62" y1="114.3" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="114.3" y1="106.68" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.00625" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -16,7 +16,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -4764,10 +4764,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="TP4" library="SparkFun-Passives" package="PAD.03X.04" value="TEST-POINT3X4" x="33.9725" y="8.255" rot="MR0"/>
 <element name="TP5" library="SparkFun-Passives" package="PAD.03X.04" value="TEST-POINT3X4" x="33.9725" y="5.715" rot="MR0"/>
 <element name="U$6" library="SparkFun-Aesthetics" package="GESTURESENSE_TEXT" value="GESTURESENSE_LOGOSTEXT" x="32.512" y="6.096"/>
-<element name="D3" library="SparkFun-LED" package="SFH4641-SHORT2" value="SFH4641SHORT2" x="9.525" y="9.525" rot="R270">
+<element name="D1" library="SparkFun-LED" package="SFH4641-SHORT2" value="SFH4641SHORT2" x="9.525" y="9.525" rot="R270">
 <attribute name="PROD_ID" value="DIO-11994" x="9.525" y="9.525" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="D4" library="SparkFun-LED" package="SFH4641-SHORT2" value="SFH4641SHORT2" x="47.625" y="9.525" rot="R90">
+<element name="D2" library="SparkFun-LED" package="SFH4641-SHORT2" value="SFH4641SHORT2" x="47.625" y="9.525" rot="R90">
 <attribute name="PROD_ID" value="DIO-11994" x="47.625" y="9.525" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="R14" library="SparkFun-Resistors" package="0603-RES" value="1K" x="47.9425" y="13.97" rot="MR0">
@@ -5192,8 +5192,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="Q1" pad="3"/>
 <contactref element="C4" pad="1"/>
 <contactref element="C6" pad="1"/>
-<contactref element="D3" pad="C"/>
-<contactref element="D4" pad="C"/>
+<contactref element="D1" pad="C"/>
+<contactref element="D2" pad="C"/>
 <wire x1="14.14" y1="17.145" x2="14.2875" y2="17.2925" width="0.2032" layer="16"/>
 <via x="45.085" y="17.4625" extent="1-16" drill="0.381"/>
 <wire x1="11.43" y1="9.525" x2="11.43" y2="17.145" width="0.508" layer="1"/>
@@ -5289,7 +5289,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="N$7">
 <contactref element="R6" pad="2"/>
-<contactref element="D3" pad="A"/>
+<contactref element="D1" pad="A"/>
 <wire x1="9.945" y1="15.5575" x2="9.945" y2="15.3425" width="0.254" layer="16"/>
 <wire x1="9.945" y1="15.3425" x2="9.8425" y2="15.24" width="0.254" layer="16"/>
 <via x="8.5725" y="15.875" extent="1-16" drill="0.381"/>
@@ -5359,18 +5359,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R8" pad="1"/>
 <wire x1="45.4025" y1="8.675" x2="45.4025" y2="8.8225" width="0.2032" layer="16"/>
 <wire x1="45.4025" y1="8.8225" x2="46.7425" y2="10.1625" width="0.2032" layer="16"/>
-</signal>
-<signal name="N$12">
-<contactref element="R8" pad="2"/>
-<contactref element="D4" pad="A"/>
-<wire x1="45.4025" y1="10.375" x2="43.395" y2="10.375" width="0.508" layer="16"/>
-<wire x1="43.395" y1="10.375" x2="43.18" y2="10.16" width="0.508" layer="16"/>
-<via x="43.18" y="10.16" extent="1-16" drill="0.381"/>
-<wire x1="43.18" y1="10.16" x2="43.18" y2="5.08" width="0.508" layer="1"/>
-<wire x1="43.18" y1="5.08" x2="44.45" y2="3.81" width="0.508" layer="1"/>
-<wire x1="44.45" y1="3.81" x2="48.26" y2="3.81" width="0.508" layer="1"/>
-<wire x1="48.26" y1="3.81" x2="49.66" y2="5.21" width="0.508" layer="1"/>
-<wire x1="49.66" y1="9.525" x2="49.66" y2="5.21" width="0.508" layer="1"/>
 </signal>
 <signal name="RECEIVER">
 <contactref element="U6" pad="1"/>
@@ -5470,6 +5458,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="S$1">
 </signal>
 <signal name="N$25">
+</signal>
+<signal name="N$12">
+<contactref element="D2" pad="A"/>
+<contactref element="R8" pad="2"/>
+<wire x1="45.4025" y1="10.375" x2="49.66" y2="9.525" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>
