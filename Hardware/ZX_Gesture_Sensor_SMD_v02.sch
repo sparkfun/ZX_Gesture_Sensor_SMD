@@ -25260,16 +25260,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheets>
 <sheet>
 <plain>
-<text x="7.62" y="144.78" size="1.778" layer="97">FTDI Basic</text>
+<text x="7.62" y="144.78" size="1.778" layer="97" font="vector">FTDI Basic</text>
 <text x="50.8" y="144.78" size="1.778" layer="97">I2C</text>
-<text x="111.76" y="144.78" size="1.778" layer="97">ICSP</text>
+<text x="111.76" y="144.78" size="1.778" layer="97" font="vector">ICSP</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="71.12" width="0.1524" layer="97" style="longdash"/>
 <rectangle x1="71.882" y1="169.672" x2="75.438" y2="170.688" layer="94"/>
-<text x="78.74" y="177.8" size="1.778" layer="97">NOTE: Remove solder jumper</text>
-<text x="87.63" y="175.26" size="1.778" layer="97">to disable I2C pullups</text>
-<text x="185.42" y="132.08" size="1.778" layer="97">NOTE: Connect solder jumper</text>
-<text x="194.31" y="129.54" size="1.778" layer="97">to change I2C address</text>
-<text x="194.31" y="124.46" size="1.778" layer="97">Open: 0x20 (Arduino: 0x10)
+<text x="78.74" y="177.8" size="1.778" layer="97" font="vector">NOTE: Remove solder jumper</text>
+<text x="87.63" y="175.26" size="1.778" layer="97" font="vector">to disable I2C pullups</text>
+<text x="185.42" y="132.08" size="1.778" layer="97" font="vector">NOTE: Connect solder jumper</text>
+<text x="194.31" y="129.54" size="1.778" layer="97" font="vector">to change I2C address</text>
+<text x="194.31" y="124.46" size="1.778" layer="97" font="vector">Open: 0x20 (Arduino: 0x10)
 Closed: 0x22 (Arduino: 0x11)</text>
 <wire x1="147.32" y1="71.12" x2="147.32" y2="99.06" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="99.06" x2="147.32" y2="139.7" width="0.1524" layer="97" style="longdash"/>
@@ -25277,11 +25277,11 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <wire x1="248.92" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="139.7" x2="0" y2="139.7" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="97" style="longdash"/>
-<text x="2.54" y="140.97" size="2.54" layer="97">Interface Ports</text>
-<text x="2.54" y="72.39" size="2.54" layer="97">IR Transmitters</text>
-<text x="2.54" y="1.27" size="2.54" layer="97">Current Loop</text>
-<text x="149.86" y="100.33" size="2.54" layer="97">Microcontroller</text>
-<text x="149.86" y="36.83" size="2.54" layer="97">IR Receiver</text>
+<text x="2.54" y="140.97" size="2.54" layer="97" font="vector">Interface Ports</text>
+<text x="2.54" y="72.39" size="2.54" layer="97" font="vector">IR Transmitters</text>
+<text x="2.54" y="1.27" size="2.54" layer="97" font="vector">Current Loop</text>
+<text x="149.86" y="100.33" size="2.54" layer="97" font="vector">Microcontroller</text>
+<text x="149.86" y="36.83" size="2.54" layer="97" font="vector">IR Receiver</text>
 <text x="7.62" y="154.94" size="1.778" layer="97" align="center-right">RX</text>
 <text x="7.62" y="152.4" size="1.778" layer="97" align="center-right">TX</text>
 <text x="7.62" y="157.48" size="1.778" layer="97" align="center-right">VCC</text>
@@ -25291,7 +25291,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <text x="50.8" y="152.4" size="1.778" layer="97" align="center-right">CL</text>
 <text x="50.8" y="149.86" size="1.778" layer="97" align="center-right">DR</text>
 <text x="7.62" y="149.86" size="1.778" layer="97" align="center-right">NC</text>
-<text x="7.62" y="177.8" size="1.778" layer="97">NOTE: VCC must be 3.3V - 5V</text>
+<text x="7.62" y="177.8" size="1.778" layer="97" font="vector">NOTE: VCC must be 3.3V - 5V</text>
 <text x="172.212" y="11.684" size="1.778" layer="94" font="vector">Shawn Hymel </text>
 <text x="177.8" y="7.62" size="1.778" layer="94">Mary West </text>
 <text x="241.3" y="7.62" size="1.778" layer="94">v02</text>
