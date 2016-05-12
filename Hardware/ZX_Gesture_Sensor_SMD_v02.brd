@@ -6,11 +6,11 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -20,25 +20,25 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -4853,14 +4853,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="12.065" y1="10.4775" x2="12.065" y2="10.795" width="0.2032" layer="16"/>
 <wire x1="12.065" y1="10.795" x2="11.7475" y2="11.1125" width="0.2032" layer="16"/>
 <wire x1="25.82" y1="11.1125" x2="25.7175" y2="11.01" width="0.2032" layer="1"/>
-<wire x1="25.7175" y1="11.01" x2="26.5675" y2="11.01" width="0.2032" layer="1"/>
-<wire x1="27.075" y1="11.3" x2="26.8575" y2="11.3" width="0.2032" layer="1"/>
-<wire x1="26.8575" y1="11.3" x2="26.5675" y2="11.01" width="0.2032" layer="1"/>
 <wire x1="50.165" y1="11.43" x2="50.165" y2="11.049" width="0.2032" layer="16"/>
 <wire x1="50.165" y1="11.049" x2="50.165" y2="10.6925" width="0.2032" layer="16"/>
 <wire x1="50.165" y1="10.6925" x2="50.4825" y2="10.375" width="0.2032" layer="16"/>
 <wire x1="50.1015" y1="11.1125" x2="50.165" y2="11.049" width="0.2032" layer="16"/>
-<wire x1="27.075" y1="11.3" x2="27.075" y2="15.089" width="0.2032" layer="1"/>
+<wire x1="27.075" y1="11.3" x2="27.075" y2="12.446" width="0.2032" layer="1"/>
+<wire x1="27.075" y1="12.446" x2="27.075" y2="15.089" width="0.2032" layer="1"/>
 <wire x1="27.075" y1="15.089" x2="26.67" y2="15.494" width="0.2032" layer="1"/>
 <wire x1="26.67" y1="15.494" x2="25.4" y2="15.494" width="0.2032" layer="1"/>
 <wire x1="25.4" y1="15.494" x2="20.574" y2="15.494" width="0.2032" layer="1"/>
@@ -4910,6 +4908,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="14.6812" y1="11.9888" x2="15.0876" y2="12.3952" width="0.2032" layer="16"/>
 <wire x1="15.0876" y1="12.3952" x2="16.1798" y2="12.3952" width="0.2032" layer="16"/>
 <wire x1="16.1798" y1="12.3952" x2="16.1925" y2="12.3825" width="0.2032" layer="16"/>
+<wire x1="25.7175" y1="11.01" x2="25.7175" y2="12.0015" width="0.2032" layer="1"/>
+<wire x1="25.7175" y1="12.0015" x2="26.162" y2="12.446" width="0.2032" layer="1"/>
+<wire x1="26.162" y1="12.446" x2="27.075" y2="12.446" width="0.2032" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="JP1" pad="6"/>
