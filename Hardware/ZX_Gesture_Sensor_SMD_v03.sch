@@ -24424,8 +24424,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="10OHM-1/10W-1%(0603)" prefix="R" uservalue="yes">
-<description>RES-12581</description>
+<deviceset name="10OHM-1/10W-5%0603" prefix="R" uservalue="yes">
+<description>RES-09834</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -24437,7 +24437,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-12581" constant="no"/>
+<attribute name="PROD_ID" value="RES-09834" constant="no"/>
 <attribute name="VALUE" value="10" constant="no"/>
 </technology>
 </technologies>
@@ -25180,18 +25180,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW"/>
 <part name="U3" library="SparkFun-DiscreteSemi" deviceset="DMC2700UDM" device=""/>
 <part name="U4" library="SparkFun-DiscreteSemi" deviceset="DMC2700UDM" device=""/>
-<part name="U6" library="SparkFun-Sensors" deviceset="TSOP57238TT1" device=""/>
+<part name="U5" library="SparkFun-Sensors" deviceset="TSOP57238TT1" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="10OHM-1/10W-1%(0603)" device="SMD" value="10">
-<attribute name="TOL" value="1%"/>
-</part>
+<part name="R3" library="SparkFun-Resistors" deviceset="10OHM-1/10W-5%0603" device="SMD" value="10"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -25242,11 +25240,11 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
-<part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
+<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="TP5" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
+<part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="U$6" library="SparkFun-Aesthetics" deviceset="GESTURESENSE_LOGOS" device="TEXT"/>
 <part name="D1" library="SparkFun-LED" deviceset="SFH4641" device="SHORT2"/>
 <part name="D2" library="SparkFun-LED" deviceset="SFH4641" device="SHORT2"/>
@@ -25262,7 +25260,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <plain>
 <text x="7.62" y="144.78" size="1.778" layer="97" font="vector">FTDI Basic</text>
 <text x="50.8" y="144.78" size="1.778" layer="97">I2C</text>
-<text x="111.76" y="144.78" size="1.778" layer="97" font="vector">ICSP</text>
+<text x="106.68" y="147.32" size="1.778" layer="97" font="vector">ICSP</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="71.12" width="0.1524" layer="97" style="longdash"/>
 <rectangle x1="71.882" y1="169.672" x2="75.438" y2="170.688" layer="94"/>
 <text x="78.74" y="177.8" size="1.778" layer="97" font="vector">NOTE: Remove solder jumper</text>
@@ -25312,22 +25310,21 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </instance>
 <instance part="U3" gate="G$1" x="22.86" y="111.76"/>
 <instance part="U4" gate="G$1" x="88.9" y="111.76"/>
-<instance part="U6" gate="G$1" x="198.12" y="63.5"/>
+<instance part="U5" gate="G$1" x="198.12" y="63.5"/>
 <instance part="JP1" gate="G$1" x="12.7" y="154.94" smashed="yes">
 <attribute name="VALUE" x="7.62" y="144.78" size="1.778" layer="96"/>
 <attribute name="NAME" x="7.62" y="165.862" size="1.778" layer="95"/>
 </instance>
-<instance part="JP3" gate="G$1" x="53.34" y="152.4"/>
+<instance part="JP2" gate="G$1" x="53.34" y="152.4"/>
 <instance part="GND1" gate="1" x="35.56" y="154.94"/>
 <instance part="SUPPLY1" gate="G$1" x="20.32" y="165.1"/>
-<instance part="SUPPLY2" gate="G$1" x="139.7" y="152.4"/>
-<instance part="GND2" gate="1" x="124.46" y="144.78"/>
+<instance part="SUPPLY2" gate="G$1" x="132.08" y="162.56"/>
+<instance part="GND2" gate="1" x="142.24" y="154.94"/>
 <instance part="R1" gate="G$1" x="43.18" y="66.04"/>
 <instance part="R2" gate="G$1" x="76.2" y="66.04"/>
 <instance part="R3" gate="G$1" x="91.44" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.98" y="30.4546" size="1.778" layer="95"/>
 <attribute name="VALUE" x="93.98" y="27.94" size="1.778" layer="96"/>
-<attribute name="TOL" x="93.98" y="25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="76.2" y="15.24"/>
 <instance part="C1" gate="G$1" x="38.1" y="43.18"/>
@@ -25411,20 +25408,20 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <instance part="LOGO1" gate="G$1" x="149.86" y="7.62"/>
 <instance part="STANDOFF1" gate="G$1" x="241.3" y="33.02"/>
 <instance part="STANDOFF2" gate="G$1" x="241.3" y="27.94"/>
-<instance part="TP1" gate="G$1" x="114.3" y="149.86" smashed="yes" rot="MR0">
-<attribute name="NAME" x="109.22" y="149.86" size="1.778" layer="95" rot="MR0" align="center-left"/>
+<instance part="TP2" gate="G$1" x="114.3" y="160.02" smashed="yes" rot="MR0">
+<attribute name="NAME" x="109.22" y="160.02" size="1.778" layer="95" rot="MR0" align="center-left"/>
 </instance>
-<instance part="TP2" gate="G$1" x="114.3" y="152.4" smashed="yes" rot="MR0">
-<attribute name="NAME" x="109.22" y="152.4" size="1.778" layer="95" rot="MR0" align="center-left"/>
-</instance>
-<instance part="TP3" gate="G$1" x="114.3" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="109.22" y="154.94" size="1.778" layer="95" rot="MR0" align="center-left"/>
-</instance>
-<instance part="TP4" gate="G$1" x="114.3" y="157.48" smashed="yes" rot="MR0">
+<instance part="TP3" gate="G$1" x="114.3" y="157.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="109.22" y="157.48" size="1.778" layer="95" rot="MR0" align="center-left"/>
 </instance>
-<instance part="TP5" gate="G$1" x="114.3" y="160.02" smashed="yes" rot="MR0">
-<attribute name="NAME" x="109.22" y="160.02" size="1.778" layer="95" rot="MR0" align="center-left"/>
+<instance part="TP1" gate="G$1" x="114.3" y="162.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="109.22" y="162.56" size="1.778" layer="95" rot="MR0" align="center-left"/>
+</instance>
+<instance part="TP5" gate="G$1" x="114.3" y="152.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="109.22" y="152.4" size="1.778" layer="95" rot="MR0" align="center-left"/>
+</instance>
+<instance part="TP4" gate="G$1" x="114.3" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="109.22" y="154.94" size="1.778" layer="95" rot="MR0" align="center-left"/>
 </instance>
 <instance part="U$6" gate="G$1" x="111.76" y="2.54"/>
 <instance part="D1" gate="G$1" x="48.26" y="104.14" smashed="yes">
@@ -25479,9 +25476,9 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="114.3" y1="149.86" x2="139.7" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="149.86" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="162.56" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
@@ -25528,7 +25525,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <junction x="104.14" y="93.98"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="VS"/>
+<pinref part="U5" gate="G$1" pin="VS"/>
 <wire x1="185.42" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="VCC"/>
 <wire x1="170.18" y1="68.58" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
@@ -25586,9 +25583,8 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="114.3" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="152.4" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -25643,10 +25639,10 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <wire x1="170.18" y1="55.88" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="GND1"/>
+<pinref part="U5" gate="G$1" pin="GND1"/>
 <wire x1="185.42" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="63.5" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="GND2"/>
+<pinref part="U5" gate="G$1" pin="GND2"/>
 <wire x1="185.42" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="182.88" y1="53.34" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
@@ -25673,7 +25669,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="154.94" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
 <label x="86.36" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -25689,7 +25685,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
 <label x="86.36" y="152.4" size="1.27" layer="95" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -25705,9 +25701,9 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </net>
 <net name="ICSPDAT/DACOUT" class="0">
 <segment>
-<wire x1="114.3" y1="160.02" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
-<label x="116.84" y="160.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="TP5" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
+<label x="116.84" y="154.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="RA0/ICSPDAT"/>
@@ -25722,9 +25718,9 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </net>
 <net name="ICSPCLK/DATA_RDY" class="0">
 <segment>
-<wire x1="114.3" y1="157.48" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
-<label x="116.84" y="157.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="TP4" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="152.4" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
+<label x="116.84" y="152.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="RA1/ICSPCLK"/>
@@ -25732,16 +25728,16 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <label x="182.88" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
 <label x="63.5" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MCLR" class="0">
 <segment>
-<wire x1="114.3" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
-<label x="116.84" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="TP3" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="162.56" x2="116.84" y2="162.56" width="0.1524" layer="91"/>
+<label x="116.84" y="162.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="RA3/*MCLR/VPP"/>
@@ -25913,7 +25909,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 </net>
 <net name="RECEIVER" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="OUT"/>
+<pinref part="U5" gate="G$1" pin="OUT"/>
 <wire x1="210.82" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
 <label x="215.9" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
