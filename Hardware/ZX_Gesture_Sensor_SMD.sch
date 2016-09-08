@@ -25292,7 +25292,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <text x="7.62" y="177.8" size="1.778" layer="97" font="vector">NOTE: VCC must be 3.3V - 5V</text>
 <text x="172.212" y="11.684" size="1.778" layer="94" font="vector">Shawn Hymel </text>
 <text x="177.8" y="7.62" size="1.778" layer="94">Mary West </text>
-<text x="241.3" y="7.62" size="1.778" layer="94">v03</text>
+<text x="241.3" y="7.62" size="1.778" layer="94">v04</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="203.2" y="165.1" smashed="yes">
@@ -25921,8 +25921,8 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="78.74" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
-<label x="220.98" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="223.52" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
+<label x="215.9" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_ADDR" class="0">
