@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.00625" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -15,9 +15,9 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -200,12 +200,12 @@ C: 0x22</text>
 <text x="41.75125" y="3.65125" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">GND</text>
 <text x="38.19525" y="4.09575" size="0.8128" layer="21" font="vector" ratio="15">VCC</text>
 <text x="40.3225" y="3.65125" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">VCC</text>
-<wire x1="5.55625" y1="1.27" x2="51.27625" y2="1.27" width="0.2032" layer="20"/>
+<wire x1="6.19125" y1="1.27" x2="51.27625" y2="1.27" width="0.2032" layer="20"/>
 <wire x1="51.27625" y1="1.27" x2="51.435" y2="1.27" width="0.2032" layer="20"/>
 <text x="50.4825" y="1.905" size="1.016" layer="16" ratio="20" rot="MR0">v05</text>
-<wire x1="50.95875" y1="17.78" x2="5.23875" y2="17.78" width="0.2032" layer="20"/>
+<wire x1="50.95875" y1="17.78" x2="5.87375" y2="17.78" width="0.2032" layer="20"/>
 <wire x1="25.7175" y1="17.78" x2="26.035" y2="18.0975" width="0.254" layer="47"/>
-<wire x1="5.55625" y1="1.27" x2="5.23875" y2="17.78" width="0.2032" layer="20" curve="-181.090425"/>
+<wire x1="6.19125" y1="1.27" x2="5.87375" y2="17.78" width="0.2032" layer="20" curve="-181.090425"/>
 <wire x1="50.95875" y1="17.78" x2="51.27625" y2="1.27" width="0.2032" layer="20" curve="-181.090425"/>
 <dimension x1="2.54" y1="9.525" x2="54.61" y2="9.525" x3="28.575" y3="23.1775" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="9.525" y1="9.525" x2="47.625" y2="9.525" x3="28.575" y3="19.84375" textsize="1.778" layer="47" unit="inch"/>
@@ -4989,18 +4989,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="TP3" pad="P$1"/>
 <wire x1="9.2075" y1="7.2" x2="11.43" y2="7.2" width="0.254" layer="16"/>
 <polygon width="0.254" layer="1">
-<vertex x="-2.69875" y="5.08"/>
+<vertex x="-2.06375" y="5.08"/>
 <vertex x="2.54" y="1.27"/>
 <vertex x="54.61" y="1.27"/>
 <vertex x="59.69" y="5.08"/>
 <vertex x="59.69" y="13.97"/>
 <vertex x="54.61" y="17.78"/>
 <vertex x="2.54" y="17.78"/>
-<vertex x="-2.69875" y="13.97"/>
+<vertex x="-2.06375" y="13.97"/>
 </polygon>
 <polygon width="0.254" layer="16">
-<vertex x="-2.69875" y="5.23875"/>
-<vertex x="-2.69875" y="14.12875"/>
+<vertex x="-2.06375" y="5.23875"/>
+<vertex x="-2.06375" y="14.12875"/>
 <vertex x="2.54" y="17.78"/>
 <vertex x="54.61" y="17.78"/>
 <vertex x="59.69" y="14.2875"/>
@@ -5094,6 +5094,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.9235" y1="5.3975" x2="21.6925" y2="5.3975" width="0.254" layer="16"/>
 <wire x1="21.6925" y1="5.3975" x2="21.59" y2="5.5" width="0.254" layer="16"/>
 <wire x1="10.09" y1="10.16" x2="13.97" y2="10.16" width="0.2032" layer="16"/>
+<via x="35.56" y="14.605" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="JP2" pad="3"/>
@@ -5533,9 +5534,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="43.4975" y1="5.715" x2="43.33875" y2="5.55625" width="0.254" layer="16"/>
 <wire x1="48.895" y1="5.3975" x2="43.4975" y2="5.3975" width="0.254" layer="1"/>
 <wire x1="43.4975" y1="5.3975" x2="43.33875" y2="5.55625" width="0.254" layer="1"/>
-</signal>
-<signal name="N$27">
-<via x="35.56" y="14.605" extent="1-16" drill="0.381"/>
 </signal>
 </signals>
 <errors>
