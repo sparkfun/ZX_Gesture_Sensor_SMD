@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -21721,7 +21721,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="12" x="-0.65" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
 <smd name="13" x="-1.3" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
 <smd name="14" x="-1.95" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<text x="-2.8956" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-2.8194" y="-2.0574" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="3.8862" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.0516" y1="-3.121" x2="-1.8484" y2="-2.2828" layer="51"/>
 <rectangle x1="-1.4016" y1="-3.121" x2="-1.1984" y2="-2.2828" layer="51"/>
@@ -21737,7 +21737,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.7516" y1="2.2828" x2="-0.5484" y2="3.121" layer="51"/>
 <rectangle x1="-1.4016" y1="2.2828" x2="-1.1984" y2="3.121" layer="51"/>
 <rectangle x1="-2.0516" y1="2.2828" x2="-1.8484" y2="3.121" layer="51"/>
-<circle x="-3.175" y="-2.8575" radius="0.4490125" width="0.127" layer="21"/>
+<circle x="-2.921" y="-2.6416" radius="0.13678125" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -22672,21 +22672,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TSOP57238TT1">
+<deviceset name="TSSP57038">
 <gates>
-<gate name="G$1" symbol="TSOP57238TT1" x="0" y="0"/>
+<gate name="G$1" symbol="TSOP57238TT1" x="-10.16" y="-5.08"/>
 </gates>
 <devices>
 <device name="" package="TSOP572">
 <connects>
-<connect gate="G$1" pin="GND1" pad="6"/>
-<connect gate="G$1" pin="GND2" pad="8"/>
+<connect gate="G$1" pin="GND1" pad="8"/>
+<connect gate="G$1" pin="GND2" pad="6"/>
 <connect gate="G$1" pin="OUT" pad="1"/>
 <connect gate="G$1" pin="VS" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="COMP-11990"/>
+<attribute name="PROD_ID" value="PROD-13609" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -24321,26 +24321,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="10OHM-1/10W-5%0603" prefix="R" uservalue="yes">
-<description>RES-09834</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09834" constant="no"/>
-<attribute name="VALUE" value="10" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1KOHM-1/10W-1%(0603)" prefix="R" uservalue="yes">
 <description>RES-07856</description>
 <gates>
@@ -25077,7 +25057,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW"/>
 <part name="U3" library="SparkFun-DiscreteSemi" deviceset="DMC2700UDM" device=""/>
 <part name="U4" library="SparkFun-DiscreteSemi" deviceset="DMC2700UDM" device=""/>
-<part name="U5" library="SparkFun-Sensors" deviceset="TSOP57238TT1" device=""/>
+<part name="U5" library="SparkFun-Sensors" deviceset="TSSP57038" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -25086,7 +25066,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="10OHM-1/10W-5%0603" device="SMD" value="10"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K 1%"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
