@@ -25171,7 +25171,7 @@ Closed: 0x22 (Arduino: 0x11)</text>
 <text x="7.62" y="177.8" size="1.778" layer="97" font="vector">NOTE: VCC must be 3.3V - 5V</text>
 <text x="172.212" y="11.684" size="1.778" layer="94" font="vector">Shawn Hymel </text>
 <text x="177.8" y="7.62" size="1.778" layer="94">Mary West </text>
-<text x="241.3" y="7.62" size="1.778" layer="94">v05</text>
+<text x="241.3" y="7.62" size="1.778" layer="94">v10</text>
 <text x="45.72" y="160.02" size="1.778" layer="97" align="center-right">GND</text>
 <text x="45.72" y="157.48" size="1.778" layer="97" align="center-right">VCC</text>
 </plain>
