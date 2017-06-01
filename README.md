@@ -3,7 +3,7 @@ SparkFun <PRODUCT NAME>
 
 ![ZX Gesture Sensor](https://cdn.sparkfun.com/assets/learn_tutorials/5/2/1/13162_04.jpg)
 
-[*SparkFun Part Name (SKU)*](https://www.sparkfun.com/products/13162)
+[*ZX Gesture Sensor (13162)*](https://www.sparkfun.com/products/13162)
 
 The ZX Sensor works by bouncing infrared (IR) beams of light from the two LEDs on either side 
 off of an object above the sensor. The bounced light returns to the receiver in the center of
@@ -38,4 +38,4 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
-_<COLLABORATION CREDIT>_
+__In Collaboration in XYZ Interactive__
