@@ -1,41 +1,29 @@
 SparkFun <PRODUCT NAME>
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![ZX Gesture Sensor](https://cdn.sparkfun.com/assets/learn_tutorials/5/2/1/13162_04.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Part Name (SKU)*](https://www.sparkfun.com/products/13162)
 
-<Basic description of the part.>
+The ZX Sensor works by bouncing infrared (IR) beams of light from the two LEDs on either side 
+off of an object above the sensor. The bounced light returns to the receiver in the center of
+the sensor, and a microcontroller on the back of the sensor interprets the data. We can read 
+the results using an I2C or UART connection.
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
+* **/Documentation** - Data sheets, additional product information 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Library](https://github.com/sparkfun/SparkFun_ZX_Distance_and_Gesture_Sensor_Arduino_Library)** - Arduino library for the ZX Gesture Sensor.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/zx-distance-and-gesture-sensor-smd-hookup-guide?_ga=2.202948182.611480158.1496348883-1788647015.1453914745)** - Basic hookup guide for the ZX Gesture Sensor.
 
-Product Versions
-----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
 
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
 
 License Information
 -------------------
