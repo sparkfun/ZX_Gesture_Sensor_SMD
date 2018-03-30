@@ -15,4 +15,4 @@ Update Library Instructions:
 ----------------------------
 To get the most up-to-date version of the library, you must run the following git subtree commands. 
 
-$git subtree pull -P Libraries/<COMPILER NAME> --squash <product library repo URL> master
+$git subtree pull -P Libraries/<COMPILER NAME> --squash https://github.com/sparkfun/SparkFun_ZX_Distance_and_Gesture_Sensor_Arduino_Library.git master
