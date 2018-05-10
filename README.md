@@ -14,15 +14,13 @@ Repository Contents
 -------------------
 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Arduino library and example code. For the most recent updats, make sure to check out the GitHub repo for the Arduino library linked below.
+* **/Libraries** - Arduino library and example code. For the most recent updates, make sure to check out the GitHub repo for the Arduino library linked below.
 * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_ZX_Distance_and_Gesture_Sensor_Arduino_Library)** - Arduino library for the ZX Distance and Gesture Sensor.
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/zx-distance-and-gesture-sensor-smd-hookup-guide?_ga=2.202948182.611480158.1496348883-1788647015.1453914745)** - Basic hookup guide for the ZX Gesture Sensor.
-
-
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/zx-distance-and-gesture-sensor-smd-hookup-guide)** - Basic hookup guide for the ZX Gesture Sensor.
 
 License Information
 -------------------
